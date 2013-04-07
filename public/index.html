@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head><meta charset='utf-8'><title>Checkers</title></head>
+<body>
+<h1>Checkers!</h1>
+<style type="text/css">canvas { border: 1px solid black; }</style>
+<table><tr valign="top"><td>
+<canvas id="board" width="400" height="400">I pity da foo without HTML5</canvas>
+</td><td><table><tr><td>Black player:</td><td><b><div id="blackStatus"></div></b></td></tr>
+<tr><td>Red player:</td><td><b><div id="redStatus"></div></b></td></tr>
+<tr><td><div id="log"></div></td></tr>
+<tr><td><button id="restart" type="button">Restart Game</button></td></tr></table></td></tr></table>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/game.js"></script>
+<script src="/js/checkers.js"></script>
+</body>
+</html>
